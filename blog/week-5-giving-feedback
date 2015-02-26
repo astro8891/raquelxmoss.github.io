@@ -1,0 +1,20 @@
+Blog: Pairing and Giving Feedback
+
+For me, the overwhelming emotion that arises during pairing sessions is uncertainty. Not necessarily about the content of the session, but about my role therein.
+
+As a high school and university student, I was often quick to answer questions and speak up in class. I was lucky in that I found it easy to express my ideas verbally, and had a good capacity for rote knowledge. But this often meant, particularly at university, that I was the only student speaking.
+
+This made me self-conscious. It wasn't my intent to dominate the lesson, and I didn't want others to think I was a 'suck up'. So I moderated my behaviour, hanging back and answering fewer questions, even though I knew the answers, or had an opinion.
+
+Similarly, in pairing sessions, I have to moderate my behaviour so that I don't dominate the session. At the same time, though, it's frustrating to wait for the other person to ruminate and come up with an answer. I also feel bad if the other person comes up with an answer that I know isn't going to get us where we want to go, and I have to tell them so. I'm not trying to be superior! It may just be that I've already thought along similar lines and run into a road block.
+
+When I don't know something, it's quite good to have someone to bounce ideas off, or lead the way. If it's a guided pairing session though, I do feel vulnerable -- I feel like the tutor thinks "She should know this! It's so easy!", and I definitely don't like appearing stupid.
+
+In the pairing sessions I did, we didn't really get into ASK feedback very much. But to me, ASK feedback would be something like this.
+
+  "Hi partner, thanks for that pairing session! I think we got a good working solution in the end. Next time, I think it would be a good idea to refer to the Ruby documentation straight away when we get stuck with arrays. We spent quite a while scratching our heads because we didn't realise the method we were calling on the array was actually a string method."
+
+  It is Actionable - it suggests something that could be done (referring to documentation)
+  It is Specific - it refers back to a specific problem we encountered
+  It is Kind - it is respectful, doesn't cast the partner as stupid
+
