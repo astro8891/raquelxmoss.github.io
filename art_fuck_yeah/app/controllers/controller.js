@@ -22,7 +22,7 @@ function Controller() {
       rgb2 = randomNumber();
       rgb3 = randomNumber();
       stopIfDone(cycle);
-    },15);
+    },200);
   };
 
   function initialize() {
