@@ -17,13 +17,14 @@ $(document).ready(function(){
     }
 
     $('#rainbow').on('mouseover','.color',function(){
-        $(this).toggleClass('fade');
+        // $(this).toggleClass('fade');
+        $( this ).fadeTo( "slow", 0.20 );
     });
 
     $('#rainbow').html(getColor(251));
 
     setInterval(function() {
-      $('.color').removeClass('fade');
+      $('.color').fadeTo("slow", 1);
     }, 10000);
 
 
