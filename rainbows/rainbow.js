@@ -1,5 +1,4 @@
 $(document).ready(function(){
-
     function getColor(noOfColors){
         htmlString ="";
         frequency=5/noOfColors;
@@ -15,18 +14,13 @@ $(document).ready(function(){
         }
         return htmlString ;
     }
-
     $('#rainbow').on('mouseover','.color',function(){
-        // $(this).toggleClass('fade');
         $( this ).fadeTo( "slow", 0.20 );
-    });
+     });
 
     $('#rainbow').html(getColor(251));
 
     setInterval(function() {
       $('.color').fadeTo("slow", 1);
     }, 10000);
-
-
-
 });

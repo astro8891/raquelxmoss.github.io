@@ -3,14 +3,9 @@
 }
 
 #rainbow div{
-    list-style-type:none;
     display:inline-block;
     width:5px;
     height:100%;
     padding: 0px;
     margin: 0px;
-}
-
-.fade {
-  opacity: 0.2;
 }
