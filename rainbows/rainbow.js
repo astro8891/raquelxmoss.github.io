@@ -21,7 +21,7 @@ $(document).ready(function(){
     $('#rainbow').html(getColor(251));
 
     // $(".audioDemo").trigger('play');
-nxY60ekO7QcH.128.mp3
+// nxY60ekO7QcH.128.mp3
 
     setInterval(function() {
       $('.color').fadeTo("slow", 1);
