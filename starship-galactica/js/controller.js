@@ -19,7 +19,7 @@ GameController.prototype.updatePlanePosition = function(e){
 }
 
 
-var game = new Game(20,40);
+var game = new Game(18,30);
 
 GameController.prototype.animateAsteroids = function(){
 
