@@ -20,7 +20,12 @@ $(document).ready(function(){
         $(this).toggleClass('fade');
     });
 
-    document.getElementById('rainbow').innerHTML=getColor(251);
+    $('#rainbow').html(getColor(251));
+
+    setInterval(function() {
+      $('.color').removeClass('fade');
+    }, 10000);
+
 
 
 });
