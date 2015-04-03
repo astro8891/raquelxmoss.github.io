@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>HTML5 basic skeleton</title>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <link rel='stylesheet' type='text/css' href='./css/application.css'>
+
+  <script type='text/javascript' src='./js/models/grid.js' ></script>
+  <script type='text/javascript' src='./js/models/plane.js' ></script>
+  <script type='text/javascript' src='./js/models/asteroid.js' ></script>
+  <script type='text/javascript' src='./js/models/game.js' ></script>
+  <script type='text/javascript' src='./js/view.js' ></script>
+  <script type='text/javascript' src='./js/controller.js' ></script>
+
+</head>
+<body>
+  <audio style="display:none " class="audioDemo" controls preload="none">
+    <source src="./mp3/notify.min.mp3" type="audio/mpeg">
+  </audio>
+  <div id='start-game'>Press the space-bar to start your adventure</div>
+  <div id="wrapper">
+    <section id="grid"></section>
+  </div>
+</body>
+</html>

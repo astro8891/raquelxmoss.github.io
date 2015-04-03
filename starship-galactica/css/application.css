@@ -1,0 +1,81 @@
+body {
+
+background-image: url(http://i.imgur.com/Zrp6hA6.jpg);
+
+background-size: cover;
+
+}
+
+#start-game {
+  width: 100%;
+  color: white;
+  font-size: 8em;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#wrapper{
+  width: 100%;
+
+}
+
+#grid{
+    width: 80%;
+    padding: 0px;
+    margin: 0 auto;
+    text-align: center;
+    background: rgba(255,255,255,0.8);
+    border-radius: 10px;
+    top: 50px;
+    position: relative;
+}
+
+#explode {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: white;
+  font-size: 10em;
+  font-family: Helvetica, sans-serif;
+  margin-top: 100px;
+}
+
+
+.cell {
+    width: 30px;
+    height: 30px;
+    /*border: 1px solid #000;*/
+    display: inline-block;
+}
+
+#SpaceShip img {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #000;
+  border-radius: 50px;
+}
+
+#Asteroid1 img {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #000;
+  border-radius: 50px;
+  -webkit-transform: rotate(180deg);     /* Chrome and other webkit browsers */
+  -moz-transform: rotate(180deg);        /* FF */
+  -o-transform: rotate(180deg);          /* Opera */
+  -ms-transform: rotate(180deg);         /* IE9 */
+  transform: rotate(180deg);
+}
+
+.plane {
+   background: transparent;
+   background-size: cover;
+   background-image: url("http://i.imgur.com/77lCzsz.png");
+}
+
+.asteroid {
+   background: transparent;
+   background-size: cover;
+   background-image: url("http://icons.iconarchive.com/icons/zairaam/bumpy-planets/128/asteroid-icon.png");
+}
